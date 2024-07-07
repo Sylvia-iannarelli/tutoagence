@@ -27,6 +27,9 @@
                 <a href="{{ route('property.index') }}" @class(['nav-link', 'active' => str_contains($route, 'property.')])>Tous les biens</a>
               </li>
             </ul>
+            <div class="ms-auto navbar-nav">
+              <a href="{{ route('login') }}" class='nav-link'>Administration</a>
+            </div>
           </div>
         </div>
       </nav>
